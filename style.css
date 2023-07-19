@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* 可以再設定font-family */
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  /* 置中 */
+  align-items: center;
+}
+
+#myCanvas {
+  border: 5px solid lightgreen;
+  /* 把方框移到畫面的正中間 */
+  /* 自己有自己的一層 */
+  position: absolute;
+  top: 65%;
+  /* 左上角的點離左邊 50% */
+  left: 50%;
+  /* x、y方向再平移回去 */
+  transform: translate(-50%, -50%);
+}
+
+#myScore {
+  margin-bottom: 0;
+  margin-top: 5rem;
+  color: white;
+  font-size: 2.5rem;
+}
+
+#myScore2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+#start {
+  padding: 0.5rem 0.5rem;
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  display: block;
+  cursor: pointer;
+  margin-top: 2cqw;
+}
